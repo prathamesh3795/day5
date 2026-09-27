@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+}
+
+.tweet {
+    width: 500px;
+    border: 1px solid #ddd;
+    padding: 15px;
+
+    display: flex;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.handle {
+    color: gray;
+    margin-left: 5px;
+}
+
+.tweet-text {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.youtube-card {
+    display: flex;
+
+    border: 1px solid #ddd;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+.thumbnail {
+    width: 100px;
+
+    background-color: lightgray;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.website {
+    color: gray;
+}
+
+.video-title {
+    font-weight: bold;
+    margin-top: 5px;
+}
